@@ -35,3 +35,4 @@ Z:\Programacion\4to\Github\3er bim\TP6_JJOO_Sasson_Izraelewicz\TP6_JJOO_Sasson_I
 Z:\Programacion\4to\Github\3er bim\TP6_JJOO_Sasson_Izraelewicz\TP6_JJOO_Sasson_Izraelewicz\obj\Debug\net8.0\TP6_JJOO_Sasson_Izraelewicz.pdb
 Z:\Programacion\4to\Github\3er bim\TP6_JJOO_Sasson_Izraelewicz\TP6_JJOO_Sasson_Izraelewicz\obj\Debug\net8.0\TP6_JJOO_Sasson_Izraelewicz.genruntimeconfig.cache
 Z:\Programacion\4to\Github\3er bim\TP6_JJOO_Sasson_Izraelewicz\TP6_JJOO_Sasson_Izraelewicz\obj\Debug\net8.0\ref\TP6_JJOO_Sasson_Izraelewicz.dll
+Z:\Programacion\4to\Github\3er bim\TP6_JJOO_Sasson_Izraelewicz\TP6_JJOO_Sasson_Izraelewicz\obj\Debug\net8.0\TP6_JJOO_Sasson_Izraelewicz.sourcelink.json

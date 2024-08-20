@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EqEhmt3pM+Opg9JM7o/cnIHQ/YVv8gHL1Sw+cD5bkhY=",
+  "Hash": "IbH30ute1g9SmUu93WMAd6laFpN8y1386ol41bCO7mw=",
   "Source": "TP6_JJOO_Sasson_Izraelewicz",
   "BasePath": "_content/TP6_JJOO_Sasson_Izraelewicz",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\Logo_JJOO.png",
+      "SourceId": "TP6_JJOO_Sasson_Izraelewicz",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\",
+      "BasePath": "_content/TP6_JJOO_Sasson_Izraelewicz",
+      "RelativePath": "img/Logo_JJOO.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logo_JJOO.png"
     },
     {
       "Identity": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\js\\site.js",

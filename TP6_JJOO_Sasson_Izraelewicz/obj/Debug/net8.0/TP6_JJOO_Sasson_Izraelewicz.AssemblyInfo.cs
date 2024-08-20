@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP6_JJOO_Sasson_Izraelewicz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+727d24d5bf1284bad1f413293b800492a77f2f23")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP6_JJOO_Sasson_Izraelewicz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP6_JJOO_Sasson_Izraelewicz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

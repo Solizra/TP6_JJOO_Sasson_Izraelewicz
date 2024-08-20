@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\Logo_JJOO.png",
+      "PackagePath": "staticwebassets\\img\\Logo_JJOO.png"
+    },
+    {
       "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
