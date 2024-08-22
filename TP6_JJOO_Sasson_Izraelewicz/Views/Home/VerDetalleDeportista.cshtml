@@ -1,0 +1,15 @@
+@ViewBag.Deportistaa;
+
+    <div class="card" style="width: 18rem;">
+        <img src="@ViewBag.Deportistaa.Foto" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@ViewBag.Deportistaa.Nombre @ViewBag.Deportistaa.Apellido</h5>
+            <p>Fecha de Nacimiento: @ViewBag.Deportistaa.FechaNacimiento </p>
+            <a href='@Url.Action("VerDetalleDeporte", "Home", new{IdDeporte = ViewBag.Deportistaa.IdDeporte})' class="btn btn-primary">Ver Detalle Deporte</a>
+            <a href='@Url.Action("VerDetallePais", "Home", new{IdPais = ViewBag.Deportistaa.IdPais})' class="btn btn-primary">Ver Detalle Pais</a>
+        </div>
+    </div>
+
+
+
+

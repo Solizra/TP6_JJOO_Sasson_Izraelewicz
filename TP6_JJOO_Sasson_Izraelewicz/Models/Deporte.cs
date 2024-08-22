@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace TP6_JJOO_Sasson_Izraelewicz;
 
-class Deporte{
+public class Deporte{
      
     public  int IdDeporte {get; set;}
     public  string Nombre {get; set;}

@@ -1,0 +1,17 @@
+@ViewBag.Paiss;
+@ViewBag.listaDeportistas;
+
+<h1> @ViewBag.Paiss.Nombre </h1>
+<p> Fecha Fundación: @ViewBag.Paiss.FechaFundacion </p>
+<img src="@ViewBag.Paiss.Bandera" />
+
+@foreach(var item in ViewBag.listaDeportistas){
+        <div class="card" style="width: 18rem;">
+        <img src="@item.Foto" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Nombre @item.Apellido</h5>
+            <p>Fecha Nacimiento: @item.FechaNacimiento </p>
+        </div>
+    </div>
+}
+

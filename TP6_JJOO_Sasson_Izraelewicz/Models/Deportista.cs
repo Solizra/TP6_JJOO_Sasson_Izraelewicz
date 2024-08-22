@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace TP6_JJOO_Sasson_Izraelewicz;
 
-class Deportista{
+public class Deportista{
 
     public int idDeportista {get; set;}
     public string Apellido {get; set;}

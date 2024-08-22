@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 namespace TP6_JJOO_Sasson_Izraelewicz;
 
-class Pais{
+public class Pais{
     public int IdPais {get; set;}
     public string Nombre {get; set;}
     public string Bandera {get; set;}

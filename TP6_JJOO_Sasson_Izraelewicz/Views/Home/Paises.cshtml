@@ -1,0 +1,12 @@
+@ViewBag.listaPaises;
+@foreach(var item in ViewBag.listaPaises){
+    <div class="card" style="width: 18rem;">
+        <img src="@item.Bandera" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Nombre</h5>
+            <p> @item.FechaFundacion </p>
+            <a href='@Url.Action("VerDetallePais", "Home", new{IdPais = item.IdPais})' class="btn btn-primary">Ver Detalle Pais</a>
+        </div>
+    </div>
+ 
+}

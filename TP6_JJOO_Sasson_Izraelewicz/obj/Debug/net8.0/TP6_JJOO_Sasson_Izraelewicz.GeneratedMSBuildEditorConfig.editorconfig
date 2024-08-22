@@ -18,8 +18,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = Z:\Programacion\4to\Github\3er bim\TP6_JJOO_Sasson_Izraelewicz\TP6_JJOO_Sasson_Izraelewicz
 build_property._RazorSourceGeneratorDebug = 
 
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/AgregarDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyRGVwb3J0aXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/Creditos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/Deportes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/Historia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/Paises.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/VerDetalleDeporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/VerDetalleDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0aXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Home/VerDetallePais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlUGFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [Z:/Programacion/4to/Github/3er bim/TP6_JJOO_Sasson_Izraelewicz/TP6_JJOO_Sasson_Izraelewicz/Views/Shared/_Layout.cshtml]

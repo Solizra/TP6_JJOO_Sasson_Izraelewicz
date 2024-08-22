@@ -12,17 +12,16 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href='@Url.Action("Index", "Home")'><img src="~/img/Logo_JJOO.png"></a>
-            <div class="navbar-nav">
-                <a class="btn btn-sm btn-outline-secondary" href='@Url.Action("Historia", "Home")'>Historia</a> //CREAR IARESULT Y VIEW LLAMADA HISTORIA
-                <a class="btn btn-sm btn-outline-secondary" href='@Url.Action("Deportes", "Home")'>Deportes</a>
-                <a class="btn btn-sm btn-outline-secondary" href='@Url.Action("Paises", "Home")'>Paises</a>
-                <a class="btn btn-sm btn-outline-secondary" href='@Url.Action("AgregarDeportista", "Home")'>Agregar Deportistas</a>
-                <a class="btn btn-sm btn-outline-secondary" href='@Url.Action("Creditos", "Home")'>Créditos</a>
-            </div>
-            </div>
+       
+    <a href='@Url.Action("Index", "Home")'><img src="~/img/Logo_JJOO.png"></a>
+        <nav>
+            <ul>
+                <li><a href='@Url.Action("Historia", "Home")'>Historia</a></li>
+                <li><a href='@Url.Action("Deportes", "Home")'>Deportes</a></li>
+                <li><a href='@Url.Action("Paises", "Home")'>Paises</a></li>
+                <li><a href='@Url.Action("AgregarDeportista", "Home")'>Agregar Deportistas</a></li>
+                <li><a href='@Url.Action("Creditos", "Home")'>Créditos</a></li>
+             </ul>
         </nav>
     </header>
 

@@ -18,9 +18,9 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Deportes(int idDeporte)
+    public IActionResult Deportes()
     {
-        ViewBag.listaDeportes = BD.ListarDeportes(idDeporte);
+        ViewBag.listaDeportes = BD.ListarDeportes();
         return View ();
     }
 
@@ -30,44 +30,44 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult VerDetalleDeporte(int idDeporte)
+    public IActionResult VerDetalleDeporte(int IdDeporte)
     {
-        ViewBag.listaDeportes = BD.ListarDeportes(idDeporte);
-        ViewBag.listaDeportistas = BD.ListarDeportistasDeporte(idDeporte);
-        return View(VerDetalleDeporte(idDeporte));
+        ViewBag.Deporte = BD.VerInfoDeporte(IdDeporte);
+        ViewBag.listaDeportistas = BD.ListarDeportistasDeporte(IdDeporte);
+        return View();
     }
 
-    public IActionResult VerDetallePais(int idPais)
+    public IActionResult VerDetallePais(int IdPais)
     {
-        ViewBag.listaPais = BD.ListarPaises();
-        ViewBag.listaDeportistas = BD.ListarDeportistasPais(idPais);
-        return View(VerDetallePais(idPais));
+        ViewBag.Paiss = BD.VerInfoPais(IdPais);
+        ViewBag.listaDeportistas = BD.ListarDeportistasPais(IdPais);
+        return View();
     }
 
     public IActionResult VerDetalleDeportista(int idDeportista)
     {
-        ViewBag.listaDeportistas = BD.VerInfoDeportista(idDeportista);
-        return View(VerDetalleDeportista(idDeportista));
+        ViewBag.Deportistaa = BD.VerInfoDeportista(idDeportista);
+        return View();
     }
 
-    public IActionResult AgregarDeportista(int idDeporte)
+    public IActionResult AgregarDeportista()
     {
         ViewBag.listaPais = BD.ListarPaises();
-        ViewBag.listaDeportes = BD.ListarDeportes(idDeporte);
-        return View(AgregarDeportista(idDeporte));
+        ViewBag.listaDeportes = BD.ListarDeportes();
+        return View();
     }
 
-    /*[HttpPost] 
-    public IActionResult GuardarDeportista(Deportista dep) //RECIBE INFO DEL FORM (X ESO CREEMOS QUE ESTA EN ROJO)
+    [HttpPost] 
+    public IActionResult GuardarDeportista(Deportista dep)
     {
         BD.AgregarDeportista(dep);
-        return View(Index());
-    }*/
+        return View("Index");
+    }
 
     public IActionResult EliminarDeportista(int idCandidato)
     {
         BD.EliminarDeportista(idCandidato);
-        return View(Index());
+        return View("Index");
     }
 
     public IActionResult Creditos()
@@ -75,5 +75,11 @@ public class HomeController : Controller
         return View();
     }
 
+     public IActionResult Historia()
+    {
+        return View();
+    }
+
+    
    
 }

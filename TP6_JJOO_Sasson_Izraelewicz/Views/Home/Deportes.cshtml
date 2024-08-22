@@ -1,0 +1,10 @@
+@ViewBag.listaDeportes;
+@foreach(var item in ViewBag.listaDeportes){
+    <div class="card" style="width: 18rem;">
+        <img src="@item.Foto" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Nombre</h5>
+            <a href='@Url.Action("VerDetalleDeporte", "Home", new{IdDeporte = item.IdDeporte})' class="btn btn-primary">Ver Detalle Deporte</a>
+        </div>
+    </div>
+}

@@ -1,0 +1,20 @@
+@ViewBag.Deporte;
+@ViewBag.listaDeportistas;
+
+
+<h1>@ViewBag.Deporte.Nombre</h1>
+<img src="@ViewBag.Deporte.Foto"/>
+
+@foreach(var item in ViewBag.listaDeportistas){
+    <div class="card" style="width: 18rem;">
+        <img src="@item.Foto" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@item.Nombre @item.Apellido</h5>
+            <a href='@Url.Action("VerDetalleDeportista", "Home", new{idDeportista = item.idDeportista})' class="btn btn-primary">Ver Detalle Deportista</a>
+        </div>
+    </div>
+}
+
+
+
+

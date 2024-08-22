@@ -5,15 +5,15 @@ using System.Collections.Generic;
 
 namespace TP6_JJOO_Sasson_Izraelewicz;
 
-static class BD{
+public static class BD{
     private static string _ConnectionString = @"Server=localhost; DataBase=JJOO; Trusted_Connection=True";
 
     public static void AgregarDeportista(Deportista dep)
     {
-        string SQL = "INSERT INTO Deportistas (idDeportista, Apellido, Nombre, FechaNacimiento, Foto, IdPais, IdDeporte) VALUES (@pIdDeoportista, @pApellido, @pNombre, @pFechaNacimiento, @pFoto, @pIdPais, @pIdDeporte)"; 
+        string SQL = "INSERT INTO Deportistas (Apellido, Nombre, FechaNacimiento, Foto, IdPais, IdDeporte) VALUES (@pApellido, @pNombre, @pFechaNacimiento, @pFoto, @pIdPais, @pIdDeporte)"; 
         using(SqlConnection db = new SqlConnection(_ConnectionString))
         {
-            db.Execute (SQL, new {pIdDeoportista = dep.idDeportista, pApellido = dep.Apellido, pNombre=dep.Nombre, pFechaNacimiento = dep.FechaNacimiento, pFoto=dep.Foto, pIdPais=dep.IdPais, pIdDeporte=dep.IdDeporte});
+            db.Execute (SQL, new {pApellido = dep.Apellido, pNombre=dep.Nombre, pFechaNacimiento = dep.FechaNacimiento, pFoto=dep.Foto, pIdPais=dep.IdPais, pIdDeporte=dep.IdDeporte});
         }
         
     }
@@ -74,13 +74,13 @@ static class BD{
         
     }
 
-    public static List<Deporte> ListarDeportes(int idDeporte)
+    public static List<Deporte> ListarDeportes()
     {   
         List <Deporte> listaDeportes = new List <Deporte> ();
-        string sql = "SELECT * FROM Deportes WHERE idDeporte = @pidDeporte";
+        string sql = "SELECT * FROM Deportes";
         using(SqlConnection db = new SqlConnection(_ConnectionString))
         {
-            listaDeportes = db.Query<Deporte>(sql, new{pidDeporte = idDeporte}).ToList();
+            listaDeportes = db.Query<Deporte>(sql).ToList();
         }
         return listaDeportes;
         
