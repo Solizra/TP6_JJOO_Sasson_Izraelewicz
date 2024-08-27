@@ -1,6 +1,8 @@
 @ViewBag.listaPais;
 @ViewBag.listaDeportes;
 
+<div class="agregarDeportista">
+<h1> Agregar Deportista </h1>
 <form action='@Url.Action("GuardarDeportista", "Home")' method="post">
     Imagen: <input type="text" name="Foto" placeholder="ingrese un URL de internet..." /> <br/>
     Nombre: <input type="text" name="Nombre"/> <br/>
@@ -24,3 +26,4 @@
 
     <input type="submit" value="Enviar Datos">
 </form>
+</div>

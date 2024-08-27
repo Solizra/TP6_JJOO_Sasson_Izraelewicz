@@ -9,8 +9,40 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\ACTUALIDAD.jpg",
+      "PackagePath": "staticwebassets\\img\\ACTUALIDAD.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\ERAMODERNA.jpg",
+      "PackagePath": "staticwebassets\\img\\ERAMODERNA.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\FONDO.jpg",
+      "PackagePath": "staticwebassets\\img\\FONDO.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\JJOO.jpg",
+      "PackagePath": "staticwebassets\\img\\JJOO.jpg"
+    },
+    {
       "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\Logo_JJOO.png",
       "PackagePath": "staticwebassets\\img\\Logo_JJOO.png"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\ORIGENES.jpg",
+      "PackagePath": "staticwebassets\\img\\ORIGENES.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\indi.jpg",
+      "PackagePath": "staticwebassets\\img\\indi.jpg"
+    },
+    {
+      "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\img\\sol.png",
+      "PackagePath": "staticwebassets\\img\\sol.png"
     },
     {
       "Id": "Z:\\Programacion\\4to\\Github\\3er bim\\TP6_JJOO_Sasson_Izraelewicz\\TP6_JJOO_Sasson_Izraelewicz\\wwwroot\\js\\site.js",

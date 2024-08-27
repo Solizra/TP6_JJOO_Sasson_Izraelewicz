@@ -1,4 +1,11 @@
 @ViewBag.listaPaises;
+
+<body class="Deportes">
+<div class="deportes">
+    <h1> PAISES </h1>
+</div>
+
+<div class="deportess">
 @foreach(var item in ViewBag.listaPaises){
     <div class="card" style="width: 18rem;">
         <img src="@item.Bandera" class="card-img-top" alt="...">
@@ -10,3 +17,5 @@
     </div>
  
 }
+</div>
+</body>
