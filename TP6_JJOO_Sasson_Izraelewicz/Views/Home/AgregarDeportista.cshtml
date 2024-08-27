@@ -4,11 +4,11 @@
 <div class="agregarDeportista">
 <h1> Agregar Deportista </h1>
 <form action='@Url.Action("GuardarDeportista", "Home")' method="post">
-    Imagen: <input type="text" name="Foto" placeholder="ingrese un URL de internet..." /> <br/>
-    Nombre: <input type="text" name="Nombre"/> <br/>
-    Apellido: <input type="text" name="Apellido"/> <br/>
-    Fecha de Nacimiento: <input type="date" name="FechaNacimiento"/> <br/>
-    Deporte: 
+    <p>Imagen:</p><input type="text" name="Foto" placeholder="ingrese un URL de internet..." /> <br/>
+    <p>Nombre:</p> <input type="text" name="Nombre"/> <br/>
+    <p>Apellido:</p> <input type="text" name="Apellido"/> <br/>
+    <p>Fecha de Nacimiento:</p> <input type="date" name="FechaNacimiento"/> <br/>
+    <p>Deporte:</p> 
     <select name="IdDeporte">
         @foreach(Deporte item in ViewBag.listaDeportes)
         {
@@ -16,7 +16,7 @@
         }
     </select> <br/>
 
-    Pais:
+    <p>Pais:</p>
     <select name="IdPais">
         @foreach(Pais item in ViewBag.listaPais)
         {
